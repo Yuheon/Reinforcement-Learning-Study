@@ -2,4 +2,4 @@
 Reinforcement Learning Study
 
 ## References
-<https://github.com/Yuheon/Reinforcement-Learning-Study.git>
+<https://github.com/hunkim/ReinforcementZeroToAll>
