@@ -1,4 +1,6 @@
 # https://github.com/hunkim/ReinforcementZeroToAll
+# 05_0_q_table_frozenlake.py
+# convert to tensorflow 2.1?
 
 import gym
 import numpy as np
