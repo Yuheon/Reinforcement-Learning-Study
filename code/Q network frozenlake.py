@@ -53,7 +53,7 @@ for i in range(num_episodes):
 
     # The Q-Network training
     while not done:
-        # Choose an action by greedily (with e chance of rnadom action) from the Q-network
+        # Choose an action by greedily (with e chance of random action) from the Q-network
         Qs = np.array(q_pred(one_hot(s)))
         if np.random.rand(1) < e:
             a = env.action_space.sample()
@@ -65,7 +65,6 @@ for i in range(num_episodes):
         if done:
             # Update Q, and no Qs+1, since it's a terminal state
             Qs[0, a] = reward
-
         else:
             # Obtain the Q_s1 values by feeding the new state through our network
             Qs1 = q_pred(one_hot(s1))
