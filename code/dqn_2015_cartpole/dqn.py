@@ -81,8 +81,5 @@ class DQN:
 
         return self.model.fit(x_stack, y_stack)
 
-    def copy_network(self, src):
-        self.model.set_weights(src.model.get_weights())
-
 
 
