@@ -23,3 +23,5 @@ https://www.nature.com/articles/nature14236.pdf
 
 Deep Reinforcement Learning with Double Q-learning
 https://arxiv.org/pdf/1509.06461.pdf
+
+[Prioritized Experience Replay](https://arxiv.org/abs/1511.05952, "paper link")
